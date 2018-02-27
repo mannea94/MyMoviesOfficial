@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_explorer"
+            android:title="EXPLORE" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:title="FAVOURITES" />
+        <item
+            android:id="@+id/nav_rated"
+            android:title="RATED" />
+        <item
+            android:id="@+id/nav_watchlist"
+            android:title="WATCHLIST" />
+        <item
+            android:id="@+id/nav_people"
+            android:title="PEOPLE" />
+        <item
+            android:id="@+id/nav_login"
+            android:title="LOGIN" />
+    </group>
+
+
+
+</menu>

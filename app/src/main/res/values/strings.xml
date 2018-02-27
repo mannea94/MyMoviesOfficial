@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyMovies</string>
+    <string name="title_activity_main_drawer">MainDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="explorer">EXPLORE</string>
+    <string name="favourites">FAVOURITES</string>
+    <string name="rated">RATED</string>
+    <string name="watchlist">WATCHLIST</string>
+    <string name="people">PEOPLE</string>
+    <string name="login">LOGIN</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="check_internet_title">Check internet connection</string>
+    <string name="check_internet_message" />
+    <string name="check_internet_settings">Check</string>
+    <string name="check_internet_cancel">Cancel</string>
+
+
+    <string-array name="string_array">
+        <item>EXPLORE</item>
+        <item>FAVOURITES</item>
+        <item>RATED</item>
+        <item>WATCHLIST</item>
+        <item>PEOPLE</item>
+        <item>LOGIN</item>
+    </string-array>
+
+</resources>
