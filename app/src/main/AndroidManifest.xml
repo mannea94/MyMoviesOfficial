@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.manne.mymovies">
+    package="com.something.manne.mymovies">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,8 +14,8 @@
         <activity
             android:name=".MainDrawerActivity"
             android:label="@string/explorer"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,32 +25,51 @@
         <activity
             android:name=".Activities.LoginActivity"
             android:label="@string/login"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activities.MovieDetailsActivity"
             android:label="@string/movie_details"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Activities.ExploreActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Activities.FavouritesActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ExploreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.FavouritesActivity"
             android:label="@string/favourites"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Activities.RatedActivity"
-            android:label="@string/rated"/>
-        <activity android:name=".Activities.WatchlistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.RatedActivity"
+            android:label="@string/rated" />
+        <activity
+            android:name=".Activities.WatchlistActivity"
             android:label="@string/watchlist"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Activities.PeopleActivity"
             android:label="@string/people"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Activities.PeopleDetailsActivity"
-            android:label="@string/people"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Activities.FullCastActivity"
-                android:label="@string/movie_details"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.PeopleDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.FullCastActivity"
+            android:label="@string/cast"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.FullCrewActivity"
+            android:label="@string/crew"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.ImageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
+
+        <activity android:name=".Activities.FragmentActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            />
     </application>
 
 </manifest>

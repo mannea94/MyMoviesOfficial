@@ -11,18 +11,23 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="com.example.manne.mymovies.Activities.PeopleDetailsActivity"
+        tools:context="com.something.manne.mymovies.Activities.PeopleDetailsActivity"
         android:background="@color/gray"
         android:gravity="center|top"
         android:orientation="vertical">
 
         <TextView
+            android:layout_marginTop="5dp"
             android:id="@+id/nameActor"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/selector_login"
+            android:gravity="center"/>
 
         <ImageView
             android:id="@+id/imageActor"
@@ -31,38 +36,95 @@
             android:layout_margin="5dp"/>
 
         <TextView
-            android:id="@+id/birthday"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/lightGray"
-            android:layout_marginBottom="5dp"/>
-
-
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            android:text="Born"
+            android:textStyle="bold"
+            android:background="@drawable/selector_login"
+            android:layout_marginHorizontal="15dp"/>
         <TextView
-            android:id="@+id/deathday"
-            android:layout_width="wrap_content"
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/lightGray"
             android:layout_marginBottom="5dp"
-            />
-
+            android:gravity="center"
+            android:layout_marginHorizontal="15dp"/>
 
         <TextView
+            android:id="@+id/died"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            android:text="Died"
+            android:textStyle="bold"
+            android:background="@drawable/selector_login"
+            android:layout_marginHorizontal="15dp"/>
+
+        <TextView
+            android:id="@+id/deathday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightGray"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_marginHorizontal="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Biography"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/selector_login"
+            />
+        <me.biubiubiu.justifytext.library.JustifyTextView
             android:id="@+id/biography"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:textColor="@color/lightGray"/>
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/lightGray"
+            android:layout_marginTop="15dp"/>
+
+
+
+            <TextView
+                android:id="@+id/knownFor2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textStyle="bold"
+                android:text="Known for "
+                android:layout_marginHorizontal="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_login"
+                android:layout_marginBottom="10dp"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/knownFor"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/lightGray"-->
+                <!--android:layout_marginHorizontal="15dp"-->
+                <!--android:layout_marginVertical="5dp"-->
+                <!--/>-->
+
+
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerViewKnownFor"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:scrollbarAlwaysDrawHorizontalTrack="true"
-            android:orientation="horizontal"
+            android:layout_height="wrap_content"
             app:layoutManager="android.support.v7.widget.LinearLayoutManager"
             android:paddingVertical="5dp"/>
-
 
     </LinearLayout>
 </ScrollView>
