@@ -40,7 +40,8 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Activities.RatedActivity"
-            android:label="@string/rated" />
+            android:label="@string/rated"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Activities.WatchlistActivity"
             android:label="@string/watchlist"

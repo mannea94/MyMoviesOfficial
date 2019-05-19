@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|top"
+    >
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
@@ -10,7 +15,7 @@
         android:background="@color/lightGray"/>
     <ImageView
         android:id="@+id/mainImage"
-        android:layout_width="180dp"
+        android:layout_width="190dp"
         android:layout_height="280dp" />
     <View
         android:layout_width="match_parent"
@@ -64,3 +69,4 @@
 
 
 </LinearLayout>
+</RelativeLayout>
