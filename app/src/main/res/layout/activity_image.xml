@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.something.manne.mymovies.Activities.ImageActivity"
+    tools:context="com.technology.manne.mymovies.Activities.ImageActivity"
     android:gravity="center"
     android:background="@color/gray">
 

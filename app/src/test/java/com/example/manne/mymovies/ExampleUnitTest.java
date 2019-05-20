@@ -1,4 +1,4 @@
-package com.something.manne.mymovies;
+package com.technology.manne.mymovies;
 
 import org.junit.Test;
 

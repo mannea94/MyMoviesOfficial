@@ -1,4 +1,4 @@
-package com.something.manne.mymovies;
+package com.technology.manne.mymovies;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,36 +9,28 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.something.manne.mymovies.Activities.FavouritesActivity;
-import com.something.manne.mymovies.Activities.LoginActivity;
-import com.something.manne.mymovies.Activities.MovieDetailsActivity;
-import com.something.manne.mymovies.Activities.PeopleActivity;
-import com.something.manne.mymovies.Activities.RatedActivity;
-import com.something.manne.mymovies.Activities.WatchlistActivity;
-import com.something.manne.mymovies.Adapters.Adapter;
-import com.something.manne.mymovies.Adapters.FragmentAdapter;
-import com.something.manne.mymovies.Api.RestApi;
-import com.something.manne.mymovies.Fragments.NowPlayingFragment;
-import com.something.manne.mymovies.Fragments.PopularFragment;
-import com.something.manne.mymovies.Fragments.TopRatedFragment;
-import com.something.manne.mymovies.Fragments.UpcomingFragment;
-import com.something.manne.mymovies.Listener.OnRowClickListener;
-import com.something.manne.mymovies.Model.MovieModel;
-import com.something.manne.mymovies.Model.MyMovies;
-import com.something.manne.mymovies.Model.User;
+import com.technology.manne.mymovies.Activities.FavouritesActivity;
+import com.technology.manne.mymovies.Activities.LoginActivity;
+import com.technology.manne.mymovies.Activities.PeopleActivity;
+import com.technology.manne.mymovies.Activities.RatedActivity;
+import com.technology.manne.mymovies.Activities.WatchlistActivity;
+import com.technology.manne.mymovies.Adapters.FragmentAdapter;
+import com.technology.manne.mymovies.Api.RestApi;
+import com.technology.manne.mymovies.Fragments.NowPlayingFragment;
+import com.technology.manne.mymovies.Fragments.PopularFragment;
+import com.technology.manne.mymovies.Fragments.TopRatedFragment;
+import com.technology.manne.mymovies.Fragments.UpcomingFragment;
+import com.technology.manne.mymovies.Model.MovieModel;
+import com.technology.manne.mymovies.Model.User;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
@@ -145,7 +137,7 @@ public class MainDrawerActivity extends AppCompatActivity
                                         .into(imageView);
                                 username.setText(user.username);
                                 name.setText(user.name);
-                                com.something.manne.mymovies.PreferenceManager.setUserID(user.getId(), MainDrawerActivity.this);
+                                com.technology.manne.mymovies.PreferenceManager.setUserID(user.getId(), MainDrawerActivity.this);
                             }
                             else{
                                 Toast.makeText(MainDrawerActivity.this, "Error", Toast.LENGTH_SHORT).show();

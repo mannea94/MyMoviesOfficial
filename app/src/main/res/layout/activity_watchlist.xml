@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.something.manne.mymovies.Activities.WatchlistActivity"
+    tools:context="com.technology.manne.mymovies.Activities.WatchlistActivity"
     android:background="@color/gray">
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefresh"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.something.manne.mymovies">
+    package="com.technology.manne.mymovies">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainDrawerActivity"
+            android:name="com.technology.manne.mymovies.MainDrawerActivity"
             android:label="@string/explorer"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -23,51 +23,51 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name="com.technology.manne.mymovies.Activities.LoginActivity"
             android:label="@string/login"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.MovieDetailsActivity"
+            android:name="com.technology.manne.mymovies.Activities.MovieDetailsActivity"
             android:label="@string/movie_details"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.ExploreActivity"
+            android:name="com.technology.manne.mymovies.Activities.ExploreActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.FavouritesActivity"
+            android:name="com.technology.manne.mymovies.Activities.FavouritesActivity"
             android:label="@string/favourites"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.RatedActivity"
+            android:name="com.technology.manne.mymovies.Activities.RatedActivity"
             android:label="@string/rated"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".Activities.WatchlistActivity"
+            android:name="com.technology.manne.mymovies.Activities.WatchlistActivity"
             android:label="@string/watchlist"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.PeopleActivity"
+            android:name="com.technology.manne.mymovies.Activities.PeopleActivity"
             android:label="@string/people"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.PeopleDetailsActivity"
+            android:name="com.technology.manne.mymovies.Activities.PeopleDetailsActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.FullCastActivity"
+            android:name="com.technology.manne.mymovies.Activities.FullCastActivity"
             android:label="@string/cast"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Activities.FullCrewActivity"
+            android:name="com.technology.manne.mymovies.Activities.FullCrewActivity"
             android:label="@string/crew"
             android:screenOrientation="portrait" />
-        <activity android:name=".Activities.ImageActivity"
+        <activity android:name="com.technology.manne.mymovies.Activities.ImageActivity"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
 
-        <activity android:name=".Activities.FragmentActivity"
+        <activity android:name="com.technology.manne.mymovies.Activities.FragmentActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"
             />

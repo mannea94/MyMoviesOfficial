@@ -1,4 +1,4 @@
-package com.something.manne.mymovies;
+package com.technology.manne.mymovies;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
